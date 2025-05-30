@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asvack</title>
+  <link rel="stylesheet" href="style.css">
+  
+<link rel="icon" href="img/Logo official 01 black.png" type="image/png">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    .cta-a, .item-servicios-section {
+      transition: all 0.3s ease;
+    }
+
+    .cta-a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .item-servicios-section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header-landing">
+    <div class="wrap-logo">
+      <img src="/img/Logo official 01 black.png" alt="Logo" class="logo-header">
+    </div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <nav class="nav-header">
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Caracteristicas</a></li>
+        <li><a href="#">Contacto</a></li>
+      <li><a href="panel/login.html" target="_blank">Panel de Control</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+  <div class="wrap-hero-section">
+    <h1>Bienvenido a Asvack</h1>
+    <p>En Asvack, nos dedicamos a impulsar la innovación en tecnología. Especializados en soluciones avanzadas de hardware, ofrecemos una amplia gama de periféricos y tarjetas gráficas de alto rendimiento diseñadas para potenciar tu experiencia informática. Nuestro compromiso es brindar productos que no solo satisfacen las necesidades de hoy, sino que también están preparados para los desafíos del futuro.</p>
+    <div class="wrap-cta">
+      <a href="/" class="cta-a">Descubre nuestros productos</a>
+    </div>
+  </div>
+</section>
+
+
+  <section class="section logos-section">
+    <div class="wrap-logos-section">
+      <img src="img/razer.png" alt="razer" class="logo-brand">
+      <img src="img/asus.png" alt="asus" class="logo-brand">
+      <img src="img/republic.png" alt="republic" class="logo-brand">
+      <img src="img/nvidia.webp" alt="nvidia" class="logo-brand">
+      <img src="img/msi.png" alt="msi" class="logo-brand">
+    </div>
+  </section>
+<section class="section servicios-section">
+  <div class="wrap-title-section">
+    <h2>Categorías de Servicios</h2>
+  </div>
+
+  <!-- Menú desplegable -->
+  <div class="filtro-servicios">
+    <label for="filtroCategoria"><strong>Filtrar por categoría:</strong></label>
+    <select id="filtroCategoria">
+      <option value="todos">Todos</option>
+      <option value="Boards">Boards</option>
+      <option value="Case">Case</option>
+      <option value="Diademas">Diademas</option>
+      <option value="Monitores">Monitores</option>
+      <option value="Mouse">Mouse</option>
+      <option value="Procesadores">Procesadores</option>
+      <option value="Tarjetas_Graficas">Tarjetas Gráficas</option>
+      <option value="Teclados">Teclados</option>
+    </select>
+  </div>
+
+  <!-- Tarjetas -->
+  <div class="wrap-servicios-section">
+<a href="categorias/boards.html" class="item-servicios-section Boards"><img src="img/Imagen Referencia Board 1.jpg"><p>Boards</p></a>
+<a href="categorias/case.html" class="item-servicios-section Case"><img src="img/Imagen de Referencia Case 1.jpg"><p>Case</p></a>
+<a href="categorias/diademas.html" class="item-servicios-section Diademas"><img src="img/Diademas 2.jpg"><p>Diademas</p></a>
+<a href="categorias/monitores.html" class="item-servicios-section Monitores"><img src="img/Imagen de Referencia 2.jpg"><p>Monitores</p></a>
+<a href="categorias/mouse.html" class="item-servicios-section Mouse"><img src="img/Imagen de Referencia 1.jpg"><p>Mouse</p></a>
+<a href="categorias/procesadores.html" class="item-servicios-section Procesadores"><img src="img/Imagen de Referencia Procesador 1.jpg"><p>Procesadores</p></a>
+<a href="categorias/tarjetasgraficas.html" class="item-servicios-section Tarjetas_Graficas"><img src="img/Grafica.jpg"><p>Tarjetas Gráficas</p></a>
+<a href="categorias/teclados.html" class="item-servicios-section Teclados"><img src="img/Teclado.jpg"><p>Teclados</p></a>
+
+  </div>
+</section>
+
+
+
+<section class="section two-column-section caracteristicas-section">
+  <div class="wrap-title-section">
+    <h2 data-aos="fade-up">Características de nuestros Servicios</h2>
+  </div>
+  <div class="wrap-two-column">
+    <div class="wrap-img_two-column" data-aos="fade-right">
+      <img src="img/Mockups Pagina Web Asvack 3.png" alt="Caracteristica">
+    </div>
+    <div class="wrap-img_two-column" data-aos="fade-left">
+      <div class="wrap-text-column">
+        <h3>Tecnología que impulsa tu rendimiento</h3>
+        <p>En Asvack diseñamos soluciones tecnológicas que marcan la diferencia. Desde componentes de alto rendimiento hasta periféricos de última generación, cada producto está pensado para ofrecer estabilidad, potencia y estilo. Porque no se trata solo de vender hardware, sino de potenciar tu mundo digital.</p>
+        <div class="wrap-cta">
+          <a href="#" class="cta-a">Explora Más &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="section two-column-section form">
+  <div class="wrap-title-section">
+    <h2 data-aos="fade-up">Formulario de Contacto</h2>
+  </div>
+  <div class="wrap-two-column">
+    <div class="wrap-img_two-column">
+      <div class="wrap-text-column">
+        <h3>Contacta con nosotros</h3>
+       <form action="https://formsubmit.co/asvackr@gmail.com" method="POST" class="form">
+  <label for="nombre">Nombre:</label>
+  <input type="text" name="nombre" id="nombre" required>
+
+  <label for="asunto">Asunto:</label>
+  <input type="text" name="asunto" id="asunto" required>
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea name="mensaje" id="mensaje" rows="4" cols="40" required></textarea>
+
+  <!-- Desactivar captcha de formsubmit -->
+  <input type="hidden" name="_captcha" value="false">
+
+  <!-- Redirección al archivo local (debes tener este archivo creado) -->
+  <input type="hidden" name="_next" value="http://127.0.0.1:5500/gracias.html">
+
+
+  <button type="submit" class="cta-a">Enviar</button>
+</form>
+      </div>
+    </div>
+    <div class="wrap-img_two-column">
+      <img src="img/atras.jpg" alt="Contacto">
+    </div>
+  </div>
+</section>
+
+
+  <button id="btnTop" class="btn-top" aria-label="Volver arriba">
+    <span class="arrow-up"></span>
+  </button>
+
+ <footer class="footer-section">
+  <div class="wrap-footer-columns">
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#">Sobre nosotros</a></li>
+        <li><a href="#">Misión</a></li>
+        <li><a href="#">Visión</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Soporte</h4>
+      <ul>
+        <li><a href="#">Preguntas frecuentes</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Síguenos</h4>
+      <div class="wrap-social-logos">
+        <a href="#"><img src="img/WhatsApp.webp" alt="WhatsApp" class="social-logo"></a>
+        <a href="#"><img src="img/Facebook.webp" alt="Facebook" class="social-logo"></a>
+        <a href="#"><img src="img/Instagram.webp" alt="Instagram" class="social-logo"></a>
+        <a href="#"><img src="img/x.webp" alt="X" class="social-logo"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-creds">
+    <p>©Copyright 2024 - Asvack - Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>

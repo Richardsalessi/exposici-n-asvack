@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel de Control | Asvack</title>
+  <link rel="stylesheet" href="login.css" />
+<link rel="icon" href="img/Logo official 01 black.png" type="image/png">
+
+</head>
+<body>
+  <a href="../index.html" class="btn-volver-panel">Volver al Inicio</a>
+  <div class="login-container">
+    <img src="img/Logo official 01 black.png" alt="Logo Asvack" class="logo" />
+    <h2>Panel de Control</h2>
+
+<form id="loginForm">
+  <input type="text" id="usuario" placeholder="Usuario" required />
+  <input type="password" id="contrasena" placeholder="Contraseña" required />
+  <button type="submit">Ingresar</button>
+</form>
+
+
+    <p class="error-msg" id="error"></p>
+  </div>
+
+  <!-- 💡 Enlaza tu script externo al final del body -->
+  <script src="login.js" defer></script>
+</body>
+</html>
